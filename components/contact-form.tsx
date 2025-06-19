@@ -51,7 +51,7 @@ export function ContactForm() {
                     {/* <form onSubmit={handleSubmit} className="space-y-6"> */}
                     <form
                         className='space-y-6'
-                        action='https://formsubmit.co/aammsdms@yopmail.com'
+                        action='https://formsubmit.co/pvdien133@gmail.com'
                         method='POST'
                     >
                         <div className='space-y-2'>
