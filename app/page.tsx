@@ -386,7 +386,7 @@ export default function Portfolio() {
                                             LinkedIn
                                         </div>
                                         <div className='font-medium'>
-                                            linkedin.com/in/shinekyawkyawaung
+                                            linkedin.com/in/diện-david-phạm-văn-46ab6a192/
                                         </div>
                                     </Link>
                                 </div>
@@ -404,7 +404,7 @@ export default function Portfolio() {
                                                 GitHub
                                             </div>
                                             <div className='font-medium'>
-                                                github.com/shinekyawkyawaung
+                                                github.com/dienphamvan
                                             </div>
                                         </div>
                                     </Link>
@@ -436,18 +436,27 @@ export default function Portfolio() {
                     <div>
                         <Link href='/' className='font-bold text-xl'>
                             <span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-600'>
-                                Shine
+                                David
                             </span>
-                            <span className='text-white'>KKA</span>
+                            <span className='text-white'>Pham</span>
                         </Link>
                         <p className='text-sm text-zinc-500 mt-2'>
-                            © {new Date().getFullYear()} Shine Kyaw Kyaw Aung.
-                            All rights reserved.
+                            © {new Date().getFullYear()} Dien Pham Van inspired
+                            by{' '}
+                            <Link
+                                href='https://github.com/shinekyaw'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='text-blue-400 hover:underline'
+                            >
+                                Shine KKA
+                            </Link>{' '}
+                            design
                         </p>
                     </div>
                     <div className='flex gap-4'>
                         <Link
-                            href='https://github.com'
+                            href='https://github.com/dienphamvan'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
@@ -461,7 +470,7 @@ export default function Portfolio() {
                             </Button>
                         </Link>
                         <Link
-                            href='https://www.linkedin.com/in/shinekyawkyawaung/'
+                            href='https://www.linkedin.com/in/di%E1%BB%87n-david-ph%E1%BA%A1m-v%C4%83n-46ab6a192/'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
@@ -474,21 +483,7 @@ export default function Portfolio() {
                                 <span className='sr-only'>LinkedIn</span>
                             </Button>
                         </Link>
-                        <Link
-                            href='https://twitter.com'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                        >
-                            <Button
-                                variant='ghost'
-                                size='icon'
-                                className='rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white'
-                            >
-                                <Twitter className='h-5 w-5' />
-                                <span className='sr-only'>Twitter</span>
-                            </Button>
-                        </Link>
-                        <Link href='mailto:hello@example.com'>
+                        <Link href='mailto:pvdien133@gmail.com'>
                             <Button
                                 variant='ghost'
                                 size='icon'
